@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-panic {
+  background: #e74c3c;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.config-section {
+  margin-top: 40px;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
